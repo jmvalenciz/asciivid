@@ -1,0 +1,15 @@
+[package]
+name = "asciivid"
+version = "0.1.0"
+authors = ["Juan Manuel Valencia Zapata <jmvalenciz@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+asciify = "0.1.6"
+#image = "0.23.14"
+clap = "2.33"
+alphanumeric-sort = "1.4"
+num_cpus = "1.13"
+itertools = "0.10"
