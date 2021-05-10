@@ -24,17 +24,17 @@ And in my case, the number of columns is `170` and the number of files is `46`
 
 Now we have to split our video into images and for that, we must use thos command:
 ```bash
-asciivid -w 683 -h 192 split -f "frame_%d.png" -i videos/input.mp4 -o split/
+asciivid -w 170 -h 46 split -f "frame_%d.png" -i videos/input.mp4 -o split/
 ```
 the format of the ouput is the same of ffmpeg. You can learn more about it [here](https://en.wikibooks.org/wiki/FFMPEG_An_Intermediate_Guide/image_sequence#Filename_patterns)
 
 After splitting the video, we have to render it into ascii format. We can do it like this:
 ```bash
-asciivid -w 683 -h 192 render -i split/ -o render/
+asciivid -w 170 -h 46 render -i split/ -o render/
 ```
 
 And now we have our ASCII video ready to play it. We can do it with this command:
 
 ```bash
-asciivid -w 683 -h 192 play -i render/
+asciivid -w 170 -h 46 play -i render/
 ```
