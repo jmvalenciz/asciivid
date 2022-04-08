@@ -18,7 +18,7 @@ I will save my video in the folder `videos` with the name `input.mp4`
 
 Also, we need to know the number of files and columns of our terminal. If you are using linux, you can use this command:
 ```bash
-tput cols & tput lines
+tput cols && tput lines
 ```
 And in my case, the number of columns is `170` and the number of files is `46`
 
